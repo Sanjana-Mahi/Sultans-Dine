@@ -1,0 +1,348 @@
+
+@media (max-width: 768px) {
+  .inner {
+      max-width: 90%;
+  }
+
+  .subtitle {
+      font-size: 1.5rem;
+  }
+
+  .title {
+      font-size: 2.5rem;
+  }
+
+  .btn {
+      font-size: 0.9rem;
+      padding: 10px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subtitle {
+      font-size: 1.2rem;
+  }
+
+  .title {
+      font-size: 2rem;
+  }
+
+  .btn {
+      font-size: 0.8rem;
+      padding: 3px 7px;
+  }
+}
+@media (max-width: 480px) {
+  .experience h2 {
+    font-size: 1.8rem; /* Even smaller title on very small screens */
+  }
+
+  .experience-item {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .experience-item h3 {
+    font-size: 1.6rem; /* Reduce heading size on very small screens */
+  }
+
+  .experience-item p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+}
+/* For medium screens (tablets, up to 1024px) */
+@media (max-width: 1024px) {
+  .experience-item {
+    flex: 1 1 calc(45% - 30px); /* Two items per row */
+  }
+}
+
+/* For small screens (mobile, up to 768px) */
+@media (max-width: 768px) {
+  .experience-item {
+    flex: 1 1 100%; /* One item per row */
+    margin: 20px 0; /* Adjust margin for better spacing */
+  }
+
+  .experience h2 {
+    font-size: 2rem; /* Slightly smaller title on mobile */
+  }
+}
+
+/* For very small screens (extra small mobile, up to 480px) */
+@media (max-width: 480px) {
+  .experience h2 {
+    font-size: 1.8rem; /* Even smaller title on very small screens */
+  }
+
+  .experience-item {
+    flex: 1 1 100%;
+    margin: 30px 0;
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .experience-item h3 {
+    font-size: 1.6rem; /* Reduce heading size on very small screens */
+  }
+
+  .experience-item p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .feature-box {
+      width: 100%;
+      max-width: 300px;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .feature-box {
+      width: 100%;
+      max-width: 300px;
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .branches-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .branch-box {
+      width: 100%;
+      max-width: 300px;
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-logo,
+  .footer-links,
+  .footer-contact,
+  .footer-social {
+      flex: 1;
+      text-align: center;
+  }
+
+  .footer-logo h3 {
+      font-size: 1.8rem;
+  }
+
+  .footer-links ul li a,
+  .footer-contact p {
+      font-size: 1rem;
+  }
+}
+@media (max-width: 1024px) {
+  .menu-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+
+  .category-title {
+    font-size: 1.6rem;
+  }
+
+  .menu-item h4 {
+    font-size: 1.2rem;
+  }
+
+  .menu-item p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .category-title {
+    font-size: 1.4rem;
+  }
+
+  .menu-item {
+    padding: 15px;
+  }
+
+  .menu-item img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .menu-item h4 {
+    font-size: 1.1rem;
+  }
+
+  .menu-item p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    padding: 30px 10px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .category-title {
+    font-size: 1.2rem;
+  }
+
+  .menu-item {
+    padding: 10px;
+    margin: 15px 0;
+  }
+
+  .menu-item img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu-item h4 {
+    font-size: 1rem;
+  }
+
+  .menu-item p {
+    font-size: 0.8rem;
+  }
+}
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .gallery-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-container {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .gallery-text {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-container {
+      grid-template-columns: 1fr;
+  }
+
+  .gallery-text {
+      font-size: 0.9rem;
+  }
+}
+@media (max-width: 1024px) {
+  .event-box {
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .event-menu-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event-box {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-box h3 {
+    font-size: 1.4rem;
+  }
+
+  .event-box ul li {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .faq-question {
+      font-size: 1rem;
+  }
+
+  .faq-answer {
+      font-size: 0.9rem;
+  }
+}@media (max-width: 768px) {
+  .features-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .feature-box {
+      width: 100%;
+      max-width: 300px;
+  }
+}
+/* For medium screens (tablets, up to 1024px) */
+@media (max-width: 1024px) {
+  .experience-item {
+    flex: 1 1 calc(45% - 30px); /* Two items per row */
+  }
+}
+
+/* For small screens (mobile, up to 768px) */
+@media (max-width: 768px) {
+  .experience-item {
+    flex: 1 1 100%; /* One item per row */
+    margin: 20px 0; /* Adjust margin for better spacing */
+  }
+
+  .experience h2 {
+    font-size: 2rem; /* Slightly smaller title on mobile */
+  }
+}
+
+/* For very small screens (extra small mobile, up to 480px) */
+@media (max-width: 480px) {
+  .experience h2 {
+    font-size: 1.8rem; /* Even smaller title on very small screens */
+  }
+
+  .experience-item {
+    flex: 1 1 100%;
+    margin: px 0;
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .experience-item h3 {
+    font-size: 1.6rem; /* Reduce heading size on very small screens */
+  }
+
+  .experience-item p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+}
