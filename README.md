@@ -1,48 +1,57 @@
-Sultan’s Dine – Where Tradition Meets Flavor
+# 🍽️ Sultan’s Dine – Where Tradition Meets Flavor
 
-    A modern, responsive catering service website developed as part of the Web Development Essentials course at Daffodil International University.
+> A modern, responsive catering service website developed as part of the **Web Development Essentials** course at **Daffodil International University**.
 
-📌 Project Overview
+---
 
-Sultan’s Dine is a fictional catering service website created to demonstrate core web development skills. The website is built using HTML5, CSS3, and JavaScript, and includes the following key features:
+## 📌 Project Overview
 
-    📅 Event Booking Interface
+**Sultan’s Dine** is a fictional catering service website designed to showcase core front-end development skills. Built using **HTML5**, **CSS3**, and **JavaScript**, the website includes:
 
-    📋 Interactive Menu Showcase
+- 📅 Event Booking Interface  
+- 📋 Interactive Menu Display  
+- 🌟 Customer Reviews Section  
+- 📱 Fully Responsive Design  
+- ⬆️ Scroll-to-Top Button  
+- 🎞️ Hero Image Slider  
 
-    🌟 Customer Reviews Section
+---
 
-    📱 Fully Responsive Design
+## 🛠️ Technologies Used
 
-    ⬆️ Scroll-to-Top Button
+- **HTML5** – Semantic structure and layout  
+- **CSS3** – Custom styling and responsive design via media queries  
+- **JavaScript** – Dynamic features (slider, scroll button, etc.)  
+- **Font Awesome** – Icon library integration  
 
-    🎞️ Hero Image Slider
+---
 
-🛠️ Technologies Used
+## 📱 Responsive Layout
 
-    HTML5 – Semantic layout and structure
+The website is fully responsive and optimized for:
 
-    CSS3 – Custom styling with responsive design via media queries
+| Device       | Compatibility |
+|--------------|---------------|
+| 💻 Desktop    | ✅             |
+| 📱 Tablet     | ✅             |
+| 📲 Mobile     | ✅             |
 
-    JavaScript – Dynamic elements including sliders and scroll functionality
+---
 
-    Font Awesome – Icons for enhanced visual experience
+## 🔗 Live Preview
 
-📱 Responsive Layout
+🌐 **View Live Site:** [sanjana-mahi-borsha-242-16-006.netlify.app](http://sanjana-mahi-borsha-242-16-006.netlify.app)
 
-Optimized for seamless viewing across all devices:
-Device	Support
-💻 Desktop	✅
-📱 Tablet	✅
-📲 Mobile	✅
-🔗 Live Preview
+---
 
-    Click here to view the live site http://sanjana-mahi-borsha-242-16-006.netlify.app
+## 📧 Project Information
 
-📧 Project Information
+- **Student Name:** Sanjana Mahi Borsha 
+- **Student ID:** 242-16-006  
+- **University:** Daffodil International University  
+- **Department:** Computing and Information Systems  
+- **Batch:** 20_A  
 
-Student Name: Sanjana Mahi Borsha
-Student ID: 242-16-006
-University: Daffodil International University
-Department: Computing and Information Systems
-Batch: 20_A
+---
+
+
